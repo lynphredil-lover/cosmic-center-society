@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+.card {
+	margin:25px 0px;
+}
+.card h1{
+	font-size:24px;
+}
+
+.card h2{ /*“使用建议”中的二级标题*/
+	font-weight:bold; font-size:18px;
+}
+
+#page-nav{ /*内容导航居中对齐*/
+	margin:20px auto; width:400px; font-size:14px;
+}
+
+.pagination{   
+	display: flex;
+  	justify-content: center;
+  	flex-wrap: wrap; 
+  	padding-left: 0;
+  	list-style: none;
+	white-space: normal;
+}
+
+.current{ /*当前页标签加粗显示*/
+	font-weight:bold; }
+
+.image-right{
+	padding-top:30px;
+}
+
+#skill1,#skill2,#skill3,#skill4{ /*默认时不显示块*/
+	display:none;
+	margin-top:12px;
+}
+#skill1{  /*默认时显示第一个块*/
+	display:block;
+}
+
+#skill1 p,#skill2 p,#skill3 p,#skill4 p{
+	margin-top:5px;
+}
+
+#skillimage1,#skillimageover2,#skillimageover3,#skillimageover4{ /*默认时显示第一个按钮的高亮状态和其他按钮的默认状态*/
+	display:none;
+}
+
+.title-underline {
+            border-bottom: 2px solid ; /* solid line under the title */
+            padding-bottom: 5px; /* space between text and line */
+            margin-bottom: 20px; /* space below the line */
+}
+
+.mission-table {
+    width: 90%;
+	margin-left:auto; margin-right:auto;
+    border-collapse: collapse; /* Removes spacing between cells */
+}
+
+.mission-table td {
+    border: 1px solid #ccc; 
+    padding: 8px;
+    text-align: left;
+}
+
+.mission-table thead th {
+    text-align: center;
+	border: 1px solid #ccc;
+}
+
+.mission-table th:nth-child(1),
+.mission-table td:nth-child(1) {
+    width: 20%;
+}
+
+.mission-table th:nth-child(2),
+.mission-table td:nth-child(2) {
+    width: 20%;
+}
+
+.mission-table th:nth-child(3),
+.mission-table td:nth-child(3) {
+    width: 60%;
+}
+
+#record-nav li{ 	
+	display:inline-block;
+	width:32%;
+	text-align:center;
+	border-bottom: 2px solid;
+}
+#record-nav li a{ 
+	display:block;
+	padding:10px 0px 6px;
+	text-decoration: none;
+	color: black;
+}
+#record-nav li a:hover{ 	
+	background:#e4e4e3;
+	color: black; 	
+}
+
+.op-vid-con {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:50vh;
+	width:100%;
+}
+.op-vid {
+	max-height:100%; 
+	max-width:100%; 
+	object-fit:contain;
+}
+
+.date {
+	color: grey;
+	font-style: italic;
+}
+
+.sticky-cell {
+  position: relative;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-style: italic;
+}
+
+.news-header {
+  left: 0;
+  width: 100%;
+  height: 15vh;
+  background-color: #101747;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news-header img {
+  height: 100%;
+  width: auto;
+}
+
+.news-comments {
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  padding: 0px;
+  margin: 15px 0;
+}
+.news-comments a {
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #333;
+}
+
+.collapse {
+  display: none;
+  text-align: left;
+}
+.card-body {
+  padding: 10px;
+  line-height: 1.6;
+}
+
