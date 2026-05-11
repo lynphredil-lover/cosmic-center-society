@@ -8,9 +8,9 @@
 如有问题可通过邮箱联络我或者在各个平台私信我也行~ 我的邮箱：leejingyj@gmail.com
 
 ### 上次更新
-更新时间：2026.01.23 <br>
+更新时间：2026.05.11 <br>
 更新内容：<br>
-1. 长沙站 vlog
+1. 佛山站 vlog
 
 [星际猎手档案跳转](https://github.com/lynphredil-lover/XingJiLieShou_Archive) (也可在网页内跳转)
 
