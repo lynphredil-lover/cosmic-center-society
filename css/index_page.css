@@ -1,0 +1,137 @@
+* {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, "Microsoft YaHei", sans-serif;
+      background-color: #ffffff;
+      color: #333333;
+    }
+
+    /* Header / Navigation Bar */
+    header {
+      width: 100%;
+      background-color: #474747;
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      padding: 10px 30px;
+      background-color: #474747;
+    }
+
+    .navbar-brand {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      margin-right: 30px;
+    }
+
+    .logo-responsive {
+      width: 75px;
+      height: 75px;
+      object-fit: contain;
+    }
+
+    .navbar-nav {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      gap: 20px;
+    }
+
+    .nav-item {
+      width: auto;
+      height: auto;
+    }
+
+    .nav-link {
+      display: inline-block;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 8px 0;
+      white-space: nowrap;
+    }
+
+    .nav-link:hover {
+      text-decoration: underline;
+    }
+
+    #current .nav-link {
+      font-weight: bold;
+    }
+
+    /* Middle Container */
+    .container {
+      max-width: 1200px;
+      min-height: 500px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    /* Footer */
+    footer {
+      width: 100%;
+      background-color: #474747;
+      color: #ffffff;
+      text-align: center;
+      padding: 15px 10px;
+      font-size: 14px;
+    }
+
+    /* Middle Content Area */
+.content-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  min-height: 500px;
+  padding: 40px 3%;
+}
+
+.content-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content-card {
+  color: #000000;
+  border: 2px solid #C3C3C3;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.content-title {
+  margin: 0 0 12px 0;
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.content-text {
+  margin: 0;
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.content-link {
+  color: #7F7F7F;
+  text-decoration: none;
+}
+
+.content-link:hover {
+  text-decoration: underline;
+}
+
+    /* Responsive layout for portrait / narrow screen */
+@media (orientation: portrait), (max-width: 768px) {
+  .content-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
