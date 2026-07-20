@@ -9,10 +9,9 @@
 如有问题可通过邮箱联络我或者在各个平台私信我也行~ 我的邮箱：leejingyj@gmail.com
 
 ### 上次更新
-更新时间：2026.07.08 <br>
+更新时间：2026.07.20 <br>
 更新内容：<br>
-1. 上海站 vlog
-2. 蒲熠星新专辑《了不起的小说家》最新消息
+1. 大连站 vlog
 
 [星际猎手档案跳转](https://lynphredil-lover.github.io/XingJiLieShou_Archive/index.html) (也可在网页内跳转)
 
